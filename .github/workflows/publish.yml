@@ -18,7 +18,7 @@ on:
         default: latest
       branch:
         description: "Branch to publish from"
-        required: true
+        required: false
         type: choice
         options:
           - rc
